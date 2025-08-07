@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>تسجيل الدخول - فيسبوك</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #1877f2;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      width: 320px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #1877f2;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 10px;
+      margin: 10px 0 20px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #145dbf;
+    }
+
+    .forgot-password {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #1877f2;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>تسجيل الدخول</h2>
+    <form>
+      <input type="text" placeholder="رقم الهاتف أو البريد الإلكتروني" required />
+      <input type="password" placeholder="كلمة المرور" required />
+      <button type="submit">تسجيل الدخول</button>
+    </form>
+    <div class="forgot-password">هل نسيت كلمة المرور؟</div>
+  </div>
+</body>
+</html>
